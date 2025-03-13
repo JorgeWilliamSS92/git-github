@@ -49,4 +49,7 @@ Acessando log de alterações feitas
 - git reset --hard hash_aqui
 - git reflog (mostra todo histórico)
 
+Salvando alterações do remeto para o local
+-- git pull
+
 ---
