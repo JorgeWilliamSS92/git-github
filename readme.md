@@ -27,4 +27,26 @@ Usando o --local essas aplicações seriam feitas apenas para os commits locais
 
 ---
 
-## git add arquivo.name
+Comandos iniciais
+
+- git init
+- git add . ou (arquivo.name para adcionar um arquivo expecifico)
+- git commit -m 'informação de observação do commit'
+- git push (para subir todas as informações adcionadas para o repositório web)
+
+Restaurando informações de modificações
+
+- git status (mostra se há alterações realizadas nos arquivos)
+- git restore name.arquivo (faz a restauração de um arquivo que sofreu modificações)
+
+Acessando log de alterações feitas
+
+- git log (CTRL + Z para encerrar)
+- git commit --amend -m "nova informação de comentário" (caso queira alterar comentário)
+- ou git commit --amend (poderar fazer modificação direto no texto e ESC + CTRL + alternativa para executar)
+- git reset --soft hash_aqui (pega o hash do commit no git log)
+- git reset --mixed hash_aqui
+- git reset --hard hash_aqui
+- git reflog (mostra todo histórico)
+
+---
