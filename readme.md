@@ -50,6 +50,12 @@ Acessando log de alterações feitas
 - git reflog (mostra todo histórico)
 
 Salvando alterações do remeto para o local
--- git pull
 
----
+- git pull
+
+Criando Branches => Branches são arquivos interligados aos seus antecessores, porém de forma independente.
+Ex.: você tem uma pasta main contendo todos os seus arquivos, precisa fazer algumas implementações mas deseja
+manter a forma original main para apenas integrar as novas atualizações após teste, e é aí que as branches são
+necessárias.
+
+- git branch -
