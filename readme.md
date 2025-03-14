@@ -61,6 +61,6 @@ necessárias.
 
 - git branch -m 'nome da branche' (criando uma nova branch)
 - git branch (mostra as branches existentes)
--
+- git merge 'nome da branch' (informa a branch que gostaria de trazer para a atual)
 
 ---
