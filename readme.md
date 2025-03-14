@@ -27,19 +27,19 @@ Usando o --local essas aplicações seriam feitas apenas para os commits locais
 
 ---
 
-###Comandos iniciais
+### Comandos iniciais
 
 - git init
 - git add . ou (arquivo.name para adcionar um arquivo expecifico)
 - git commit -m 'informação de observação do commit'
 - git push origin main (para subir todas as informações adcionadas para o repositório web)
 
-###Restaurando informações de modificações
+### Restaurando informações de modificações
 
 - git status (mostra se há alterações realizadas nos arquivos)
 - git restore name.arquivo (faz a restauração de um arquivo que sofreu modificações)
 
-###Acessando log de alterações feitas
+### Acessando log de alterações feitas
 
 - git log (CTRL + Z para encerrar)
 - git commit --amend -m "nova informação de comentário" (caso queira alterar comentário)
@@ -49,11 +49,12 @@ Usando o --local essas aplicações seriam feitas apenas para os commits locais
 - git reset --hard hash_aqui
 - git reflog (mostra todo histórico)
 
-###Salvando alterações do remeto para o local
+### Salvando alterações do remeto para o local
 
 - git pull
 
-###Criando Branches =>
+### Criando Branches =>
+
 Branches são arquivos interligados aos seus antecessores, porém de forma independente.
 Ex.: você tem uma pasta main contendo todos os seus arquivos, precisa fazer algumas implementações mas deseja
 manter a forma original main para apenas integrar as novas atualizações após teste, e é aí que as branches são
