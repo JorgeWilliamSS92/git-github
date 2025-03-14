@@ -32,7 +32,7 @@ Usando o --local essas aplicações seriam feitas apenas para os commits locais
 - git init
 - git add . ou (arquivo.name para adcionar um arquivo expecifico)
 - git commit -m 'informação de observação do commit'
-- git push (para subir todas as informações adcionadas para o repositório web)
+- git push origin main (para subir todas as informações adcionadas para o repositório web)
 
 ###Restaurando informações de modificações
 
@@ -62,3 +62,6 @@ necessárias.
 - git branch 'nome da branch' (criando uma nova branch)
 - git branch (mostra as branches existentes)
 - git branch -D 'nome da branch' (deleta a branch indicada)
+- git fetch origin main (pega atualizações da branch no repositório)
+- git merge origin/main (faz a imersão desses arquivos da origin/main para a main local)
+-
