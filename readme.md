@@ -59,4 +59,8 @@ Ex.: você tem uma pasta main contendo todos os seus arquivos, precisa fazer alg
 manter a forma original main para apenas integrar as novas atualizações após teste, e é aí que as branches são
 necessárias.
 
-- git branch -
+- git branch -m 'nome da branche' (criando uma nova branch)
+- git branch (mostra as branches existentes)
+-
+
+---
